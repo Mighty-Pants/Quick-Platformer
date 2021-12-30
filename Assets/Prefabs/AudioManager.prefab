@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5678794083354799312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5678794083354799342}
+  - component: {fileID: 5678794083354799313}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5678794083354799342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5678794083354799312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.498734, y: 10.440977, z: -49.62793}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5678794083354799313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5678794083354799312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c54a48f081932b409b6bf8425673fce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jump: {fileID: 8300000, guid: fcb3c406443351448b5b0c90d8c87b01, type: 3}
+  coin: {fileID: 8300000, guid: b2e22bfee5f37ad4a96ebfc00d5deb22, type: 3}
+  hurt: {fileID: 8300000, guid: dda82e720d9e1814e8c29617ebe62822, type: 3}
+  up: {fileID: 8300000, guid: ff19486a4d7d043499eabeff83c33ee7, type: 3}
+  victory: {fileID: 8300000, guid: 6a84ae259afff7b43a53f9619db65b72, type: 3}
+  lose: {fileID: 8300000, guid: 483886d6277f9c54bab043f143e890ad, type: 3}
+  back1: {fileID: 8300000, guid: 6d264e25e2af44e41ba66b0b680438c4, type: 3}
+  back2: {fileID: 8300000, guid: cdb8c28ed82ce174689b1078c0da62b9, type: 3}
+  back3: {fileID: 8300000, guid: 0026366287bcbdf4394a234a9406d393, type: 3}
+  soundObject: {fileID: 0}
